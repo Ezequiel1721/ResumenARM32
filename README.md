@@ -134,7 +134,9 @@ str r2, [r1], #+4      /* a[2] <- r2   */
 **Matrices bidimensionales.** Una matriz bidimensional de NxM elementos se almacena en un único bloque de memoria. Interpretamos una matriz de NxM como una matriz de N fila de M elementos cada una.
 
 ## Estructuras de control de alto nivel
-Las estructuras for y while se pueden ejecutar un mínimo de 0 iteraciones (si la primera vez no se cumple la condición). La traducción de las estructuras en comparación con el lenguaje C se muestran a continuación.
+Las estructuras for y while se pueden ejecutar un mínimo de 0 iteraciones (si la primera vez no se cumple la condición). La traducción de las estructuras se muestran a continuación.
+
+Estructura del for y while en C
 ```c
 int vi, vf, i;
 
@@ -147,5 +149,21 @@ while ( i < vf ) {
    /* Cuerpo del bucle */
 i++;
 }
+```
+
+Traducción de las estrucutra for y while. Hemos supuesto que el valor inicial está en la variable vi y el valor final en la variable vf y se ha utilizado el registrado r1 como índice de las iteraciones i.
+```bash
+         ldr   r1, =vi
+         ldr   r1, [r1]
+         ldr   r2, =vf
+         ldr   r2, [r2]
+bucle:   cmp   r1, r2
+         bhi   salir
+         /* Cuerpo
+            del
+            bucle */
+         add   r1, r1, #1
+         b     bucle
+salir:
 ```
 
