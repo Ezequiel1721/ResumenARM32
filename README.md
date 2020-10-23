@@ -60,9 +60,9 @@ En la zona de datos, las etiquetas pueden representar variables, constantes y ca
 
 ### Instrucciones
 Cada instrucción del as (se refiere a ensamblador) se refiere a una operación que puede realizar el microprocesador. Podemos agrupar el conjunto de instrucciones del as, según el tipo de función que realice el microprocesador, en las siguientes categorías:
-- *Instrucciones de tranferencia de datos.* Mueven información entre registros y posiciones de memoria. Pertenecen a este grupo las siguientes instrucciones: **mov, ldr, str, ldm, stm, push, pop.**
-- *Instrucciones aritméticas.* Realizan operaciones aritméticas sobre números binarios o BCD. Son instrucciones de este grupo **add, cmp, adc, sbc, mul.**
-- *Instrucciones de manejo de bits.* Realizan operaciones de desplazamiento, rotación y lógicas sobre registros o posiciones de memoria. Están en este grupo las instrucciones: **and, tst, eor, orr, LSL, LSR, ASR, ROR, RRX.**
-- *Instrucciones de transferencia de control.* Se utilizan para controlar el flujo de lejecución de las instrucciones del programa. Tales como **b, bl, bx, blx** y sus variantes condicionales.
+- ***Instrucciones de tranferencia de datos.*** Mueven información entre registros y posiciones de memoria. Pertenecen a este grupo las siguientes instrucciones: **mov, ldr, str, ldm, stm, push, pop.**
+- ***Instrucciones aritméticas.*** Realizan operaciones aritméticas sobre números binarios o BCD. Son instrucciones de este grupo **add, cmp, adc, sbc, mul.**
+- ***Instrucciones de manejo de bits.*** Realizan operaciones de desplazamiento, rotación y lógicas sobre registros o posiciones de memoria. Están en este grupo las instrucciones: **and, tst, eor, orr, LSL, LSR, ASR, ROR, RRX.**
+- ***Instrucciones de transferencia de control.*** Se utilizan para controlar el flujo de lejecución de las instrucciones del programa. Tales como **b, bl, bx, blx** y sus variantes condicionales.
 
 
