@@ -89,6 +89,14 @@ mov r1, r3, ASR #3     /* r1 <- (r3/8) */
 ### Direccionamiento a memoria, sin actualizar registro puntero.
 Es la forma más sencilla y admite 4 variantes. Después del acceso a memoria ningún registro implicado en el cálculo de la dirección se modifica.
 ```as
-mov r2, #1           /* r2 <- 1 */
-str r2, [r1, #+12]   /* *(r1 + 12) <- */
+mov r2, #1            /* r2 <- 1 */
+str r2, [r1, #+12]    /* *(r1 + 12) <- */
+```
+### Direccionamiento a memoria, actualizando registro puntero. 
+El registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro sin necesidad de hacer el incremento del puntero en una instrucción aparte.
+```as
+mov r2, #0             /* r2 <- 0      */
+str r2, [r1], #+4      /* a[0] <- r2   */
+str r2, [r1], #+4      /* a[1] <- r2   */
+str r2, [r1], #+4      /* a[2] <- r2   */
 ```
