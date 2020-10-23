@@ -1,3 +1,22 @@
+#    Tecnológico Nacional de México
+#   Instituto Tecnológico de Tijuana
+#        Subdirección Académica
+
+# Departamento de Sistemas y Computación
+# Ingeniería en Sistemas Computacionales
+# Lenguajes de interfaz 
+
+# Practica Bloque: 2.1
+# Objetivo: Lectura y ejercicios de ARM32 del ebook OpenSource
+
+
+# Galván Rodríguez Ezequiel 17212127
+   
+
+# Profesor:
+# MC. René Solis Reyes
+# Semestre sep - ene 2020
+
 ![](https://images.cooltext.com/5474793.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
