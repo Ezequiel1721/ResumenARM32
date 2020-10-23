@@ -77,26 +77,26 @@ Son expresiones que aparecen en el módulo fuente e indican al compilador que re
 ## Modos de direccionamiento del ARM
 ### Direccionamiento inmediato.
 El operando fuente es una constante, formando parte de la instrucción.
-```as
+```bash
 mov r0, #1
 add r2, r3, #4
 ```
 ### Direccionamiento inmediato con desplazamiento o rotación.
 Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
-```as
+```bash
 mov r1, r2, LSL #1     /* r1 <- (r2*2) */
 mov r1, r2, LSL #2     /* r1 <- (r2*4) */
 mov r1, r3, ASR #3     /* r1 <- (r3/8) */
 ```
 ### Direccionamiento a memoria, sin actualizar registro puntero.
 Es la forma más sencilla y admite 4 variantes. Después del acceso a memoria ningún registro implicado en el cálculo de la dirección se modifica.
-```as
+```bash
 mov r2, #1            /* r2 <- 1 */
 str r2, [r1, #+12]    /* *(r1 + 12) <- */
 ```
 ### Direccionamiento a memoria, actualizando registro puntero. 
 El registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro sin necesidad de hacer el incremento del puntero en una instrucción aparte.
-```as
+```bash
 mov r2, #0             /* r2 <- 0      */
 str r2, [r1], #+4      /* a[0] <- r2   */
 str r2, [r1], #+4      /* a[1] <- r2   */
