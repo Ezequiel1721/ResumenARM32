@@ -24,4 +24,12 @@ Cuando escribimos un dato en una posición de memoria, dependiendo de si es byte
 
 ![](imagen/memoria.png)
 
+## El lenguaje Ensamblador
+El ensamblador es un lenguaje de bajo nivel que permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
+
+El ensamblador se utiliza como apoyo a otros lenguajes de alto nivel para 3 tipos de situcaciones:
+- Operaciones que se repitan un número elevado de veces.
+- Cuando se requiera una gran velocidad de proceso.
+- Para utilización y aprovechamiento de dispositivos y recursos del sistema.
+
 
