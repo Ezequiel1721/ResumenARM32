@@ -47,6 +47,22 @@ ejecutable, todo esto se muestra en la figura 1.3.
 
 ![](imagen/entorno.png)
 
+## Aspecto de un programa en ensamblador
+La principal característica de un módulo fuente en ensamblador es que existe una clasra separación entre las instrucciones y los datos. La estructura más general de un módulo fuente es:
+- **Sección de datos.** Viene identificada por la directiva .data. En esta zona se definen todas las variables que utiliza el programa con el objeto de reservar memoria para contener los valores asignados.
+- **Sección de código.** Se indica con la directiva .text, y sólo puede contener código o datos no modificables.
 
+### Datos
+Los datos se pueden representar de distintas maneras. Para representar números tenemos 4 bases, la forma decimal, hexadecimal (se indica con el prefijo Ox), binaria (prefijo Ob) y la octal (con prefijo O)
+
+### Símbolos
+En la zona de datos, las etiquetas pueden representar variables, constantes y cadenas. En la zona de código podemos usar etiquetas de salto, fundiones y punteros a zona de datos.
+
+### Instrucciones
+Cada instrucción del as (se refiere a ensamblador) se refiere a una operación que puede realizar el microprocesador. Podemos agrupar el conjunto de instrucciones del as, según el tipo de función que realice el microprocesador, en las siguientes categorías:
+- *Instrucciones de tranferencia de datos.* Mueven información entre registros y posiciones de memoria. Pertenecen a este grupo las siguientes instrucciones: **mov, ldr, str, ldm, stm, push, pop.**
+- *Instrucciones aritméticas.* Realizan operaciones aritméticas sobre números binarios o BCD. Son instrucciones de este grupo **add, cmp, adc, sbc, mul.**
+- *Instrucciones de manejo de bits.* Realizan operaciones de desplazamiento, rotación y lógicas sobre registros o posiciones de memoria. Están en este grupo las instrucciones: **and, tst, eor, orr, LSL, LSR, ASR, ROR, RRX.**
+- *Instrucciones de transferencia de control.* Se utilizan para controlar el flujo de lejecución de las instrucciones del programa. Tales como **b, bl, bx, blx** y sus variantes condicionales.
 
 
