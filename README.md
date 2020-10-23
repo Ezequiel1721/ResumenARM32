@@ -7,6 +7,6 @@ ARM es una arquitectura RISC (Reduced Instruction Set Computer = Ordenador con C
 Su función es el almacenamiento temporal de datos.
 
 #### Registros Especiales
-- **SP** Puntero de Pila. Sirve como puntero para almacenar variables locales y registros en llamadas a funciones.
-- **LR** Registro de Enlace. Almacena la dirección de retorno cuando una instrucción BL ó BLX ejecuta una llamada a una rutina.
-- **PC** Contador de Programa. Es un registro que indica la posición donde está el procesador en su secuencia de instrucciones.
+- **SP** - Puntero de Pila. Sirve como puntero para almacenar variables locales y registros en llamadas a funciones.
+- **LR** - Registro de Enlace. Almacena la dirección de retorno cuando una instrucción BL ó BLX ejecuta una llamada a una rutina.
+- **PC** - Contador de Programa. Es un registro que indica la posición donde está el procesador en su secuencia de instrucciones.
