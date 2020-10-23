@@ -65,4 +65,18 @@ Cada instrucción del as (se refiere a ensamblador) se refiere a una operación 
 - ***Instrucciones de manejo de bits.*** Realizan operaciones de desplazamiento, rotación y lógicas sobre registros o posiciones de memoria. Están en este grupo las instrucciones: **and, tst, eor, orr, LSL, LSR, ASR, ROR, RRX.**
 - ***Instrucciones de transferencia de control.*** Se utilizan para controlar el flujo de lejecución de las instrucciones del programa. Tales como **b, bl, bx, blx** y sus variantes condicionales.
 
+### Directivas
+Son expresiones que aparecen en el módulo fuente e indican al compilador que realice determinadas tareas en el proceso de compilación. Las directivas más frecuentes en el as son:
+- ***Directivas de asignación:*** Se utilizan para dar valores a las constantes o reservar posiciones de memoria para las variables, tales como **.byte, .hword, .word, .ascii, .asciz, .zero y .space.**
+- ***Directivas de control:*** **.text** y **.data** sirven para delimitar las distintas secciones de nuestro módulo. **.align** es para alinear el siguiente dato, rellenando con ceros.
+- ***Directivas de operando:*** Se aplican a los datos en tiempo de compilación. Incluyen: **&, |, ~, +, -, *, /, % , <, >, <<, >>.**
+- ***Directivas de Macros:*** Una **.macro** es un conjunto de sentencias en ensamblador que pueden aparecer varias veces repetidas en un programa con algunas modificaciones (opcionales).
+
+## Modos de direccionamiento del ARM
+### Direccionamiento inmediato.
+El operando fuente es una constante, formando parte de la instrucción.
+```bash
+mov r0, #1
+add r2, r3, #4
+```
 
