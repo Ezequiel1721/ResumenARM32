@@ -75,7 +75,7 @@ Son expresiones que aparecen en el módulo fuente e indican al compilador que re
 ## Modos de direccionamiento del ARM
 ### Direccionamiento inmediato.
 El operando fuente es una constante, formando parte de la instrucción.
-```bash
+```as
 mov r0, #1
 add r2, r3, #4
 ```
