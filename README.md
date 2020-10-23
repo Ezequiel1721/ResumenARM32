@@ -79,4 +79,11 @@ El operando fuente es una constante, formando parte de la instrucción.
 mov r0, #1
 add r2, r3, #4
 ```
+### Direccionamiento inmediato con desplazamiento o rotación.
+Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
+```
+mov r1, r2, LSL #1     /* r1 <- (r2*2) */
+mov r1, r2, LSL #2     /* r1 <- (r2*4) */
+mov r1, r3, ASR #3     /* r1 <- (r3/8) */
+```
 
