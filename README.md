@@ -132,3 +132,20 @@ str r2, [r1], #+4      /* a[2] <- r2   */
 **Vectores.** Todos los elementos de un vector se almacenan en un único bloque de memoria a partir de una dirección determinada. Los diferentes elementos se almacenan en posiciones consecutivas.
 
 **Matrices bidimensionales.** Una matriz bidimensional de NxM elementos se almacena en un único bloque de memoria. Interpretamos una matriz de NxM como una matriz de N fila de M elementos cada una.
+
+## Estructuras de control de alto nivel
+Las estructuras for y while se pueden ejecutar un mínimo de 0 iteraciones (si la primera vez no se cumple la condición). La traducción de las estructuras en comparación con el lenguaje C se muestran a continuación.
+```c
+int vi, vf, i;
+
+for (i = vi; i <= vf; i++ ) {
+   /* Cuerpo del bucle */
+}
+
+i = vi;
+while ( i < vf ) {
+   /* Cuerpo del bucle */
+i++;
+}
+```
+
