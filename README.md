@@ -22,4 +22,6 @@ Almacena las banderas condicionales y los bits de control. Los bits de control d
 ### Esquema de almacenamiento
 Cuando escribimos un dato en una posición de memoria, dependiendo de si es byte, half word o word,... se ubica en memoria según el esquema de la figura 1.2. La dirección de un dato es la de su byte menos significativo.
 
+![](imagen/memoria.png)
+
 
