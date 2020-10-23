@@ -86,4 +86,9 @@ mov r1, r2, LSL #1     /* r1 <- (r2*2) */
 mov r1, r2, LSL #2     /* r1 <- (r2*4) */
 mov r1, r3, ASR #3     /* r1 <- (r3/8) */
 ```
-
+### Direccionamiento a memoria, sin actualizar registro puntero.
+Es la forma más sencilla y admite 4 variantes. Después del acceso a memoria ningún registro implicado en el cálculo de la dirección se modifica.
+```as
+mov r2, #1           /* r2 <- 1 */
+str r2, [r1, #+12]   /* *(r1 + 12) <- */
+```
