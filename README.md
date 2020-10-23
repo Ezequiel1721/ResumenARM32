@@ -102,6 +102,7 @@ str r2, [r1], #+4      /* a[2] <- r2   */
 ```
 ## Tipos de datos
 **Tipos de datos básicos.** Son todos los que se muestran en la siguiente tabla.
+
 ![](imagen/tiposDeDatos.png)
 
 **Punteros.** Un puntero siempre ocupa 32 bits y contiene una dirección de memoria.
