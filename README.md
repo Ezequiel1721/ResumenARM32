@@ -43,7 +43,9 @@ traducido más una serie de códigos que debe tener todo programa que vaya a ser
 ejecutado en una máquina determinada. Entre estos códigos comunes se encuentran
 las librerías del lenguaje. El encargado de unir el código del programa con el código
 de estas librerías es un programa llamado montador (linker) que genera el programa
-ejecutable (ver la figura 1.3)
+ejecutable, todo esto se muestra en la figura 1.3.
+
+![](imagen/entorno.png)
 
 
 
