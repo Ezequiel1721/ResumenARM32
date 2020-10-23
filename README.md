@@ -166,4 +166,30 @@ bucle:   cmp   r1, r2
          b     bucle
 salir:
 ```
+Estructura if en C
+```c
+int a, b;
 
+if (a == b){
+   /* Código entonces */
+}
+else {
+   /* Código sino */
+}
+```
+
+Traducción de la estructura if
+```bash
+         ldr   r1, =a
+         ldr   r1, [r1]
+         ldr   r2, =b
+         ldr   r2, [r2]
+         cmp   r1, r2
+         bne   sino
+entonces:
+         /* Código entonces */
+         b     final
+sino:
+         /* Código */
+final:   ...
+```
