@@ -100,3 +100,11 @@ str r2, [r1], #+4      /* a[0] <- r2   */
 str r2, [r1], #+4      /* a[1] <- r2   */
 str r2, [r1], #+4      /* a[2] <- r2   */
 ```
+## Tipos de datos
+**Tipos de datos básicos.** Son todos los que se muestran en la siguiente tabla.
+
+**Punteros.** Un puntero siempre ocupa 32 bits y contiene una dirección de memoria.
+
+**Vectores.** Todos los elementos de un vector se almacenan en un único bloque de memoria a partir de una dirección determinada. Los diferentes elementos se almacenan en posiciones consecutivas.
+
+**Matrices bidimensionales.** Una matriz bidimensional de NxM elementos se almacena en un único bloque de memoria. Interpretamos una matriz de NxM como una matriz de N fila de M elementos cada una.
