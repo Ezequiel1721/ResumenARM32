@@ -4,7 +4,7 @@
 ARM es una arquitectura RISC (Reduced Instruction Set Computer = Ordenador con Conjunto Reducido de Instrucciones) de 32 bits. Se trata de una arquitectura licenciable, quiere decir que la empresa desarrolladora ARM Holdings diseña la arquitectura, pero son otras compañías las que fabrican y venden los chips, llevándose ARM Holdings un pequeño porcentaje por la licencia.
 
 ### Registros
-![](imagen/registros.png)
+![](imagen/registross.png)
 
 #### Registros Generales
 Su función es el almacenamiento temporal de datos.
