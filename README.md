@@ -10,3 +10,10 @@ Su función es el almacenamiento temporal de datos.
 - **SP** - Puntero de Pila. Sirve como puntero para almacenar variables locales y registros en llamadas a funciones.
 - **LR** - Registro de Enlace. Almacena la dirección de retorno cuando una instrucción BL ó BLX ejecuta una llamada a una rutina.
 - **PC** - Contador de Programa. Es un registro que indica la posición donde está el procesador en su secuencia de instrucciones.
+
+#### Registros CPSR
+Almacena las banderas condicionales y los bits de control. Los bits de control definen la habilitación de interrupciones normales (I), interrupciones rápidas (F), modo Thumb (T) y el modo de operación de la CPU. Existen hasta 8 modos de operación. Desde el *Modo Usuario* sólo podemos acceder a las banderas condicionaless, que contienen información sobre el estado de la última operación realizada por la ALU. Existen 4 banderas y son las siguientes:
+- **N.** Se activa cuando el resultado es negativo.
+- **Z.** Se activa cuando el resultado es cero o una comparación es cierta.
+- **C.** Indica acarreo en las operaciones aritméticas.
+- **V.** Desbordamiento aritmético.
