@@ -5,7 +5,7 @@
 @@ Ing. En Sistemas Computacionales
 @@   
 @@ Autor : Ezequiel Galván Rodríguez @nickname: Ezequiel1721
-@@ Repositorio: http://github.com/Ezequiel1721/ResumenARM32/Codigos
+@@ Repositorio: https://github.com/Ezequiel1721/ResumenARM32.git
 @@ Fecha de revisión: 23/10/2020
 @@ 
 @
