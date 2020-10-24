@@ -418,5 +418,5 @@ main :	ldr r1, = var1 		/* r1 <- & var1 */
 	add r0, r1, r2 		/* r0 <- r1 + r2 */
 	bx lr
 ```
-### Corrida
-![](imagen/sumaBytes.png)
+### Corrida:
+![](imagen/sumaByte.png)
