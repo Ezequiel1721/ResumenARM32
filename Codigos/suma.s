@@ -5,7 +5,7 @@
 @@ Ing. En Sistemas Computacionales
 @@   
 @@ Autor : Ezequiel Galván Rodríguez @nickname: Ezequiel1721
-@@ Repositorio: http://github.com/tectijuana/_______
+@@ Repositorio: http://github.com/Ezequiel1721/ResumenARM32/Codigos
 @@ Fecha de revisión: 23/10/2020
 @@ 
 @
@@ -15,6 +15,7 @@
 @-------------------------------------------------------------------------
 @                               Sección de Datos
 @-------------------------------------------------------------------------
+*/
 
 .data
 
@@ -22,9 +23,11 @@ var1 : .word 3
 var2 : .word 4
 var3 : .word 0x1234
 
+/*
 @--------------------------------------------------------------------------
 @                               Sección de código
 @--------------------------------------------------------------------------
+*/
 
 .text
 .global main
