@@ -319,3 +319,6 @@ bucle :	ldr r0, [r4], #4
 ```
 ### Corrida:
 ![](imagen/vectorIntLargos.png)
+
+## Nota:
+Solo coloco estos dos códigos, debido a que son los únicos que tienen un valor que mostrar en pantalla, los demás ejercicios y capturas de su ejecución se encuentran en su carpeta correspondiente
