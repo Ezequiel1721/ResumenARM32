@@ -32,7 +32,8 @@ var3 : .word 0x1234
 .text
 .global main
 	
-main:	ldr r1, puntero_var1 		/* r1 <- & var1 */
+main:
+	ldr r1, puntero_var1 		/* r1 <- & var1 */
 	ldr r1, [r1] 			/* r1 <- *r1 */
 	ldr r2, puntero_var2 		/* r2 <- & var2 */
 	ldr r2, [r2] 			/* r2 <- *r2 */
