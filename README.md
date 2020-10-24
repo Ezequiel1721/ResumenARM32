@@ -321,7 +321,7 @@ bucle :	ldr r0, [r4], #4
 ![](imagen/vectorIntLargos.png)
 
 ## Nota:
-Los siguientes programas no muestran nada en pantalla al ejecutarlos debido a que no se utilizaron instrucciones para que hiciera eso, solo se ponen sus corridas con la intención de mostrar que si corren sin ningún problema, dando por entendido que fueron escritos de manera correcta.
+Los siguientes programas no muestran nada en pantalla al ejecutarlos debido a que no se utilizaron instrucciones para que hiciera eso, solo se ponen sus corridas con la intención de mostrar que si corren sin ningún problema, dando por entendido que fueron ejecutados de manera correcta.
 
 ## Programa 3
 ```bash
