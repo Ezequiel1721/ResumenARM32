@@ -16,7 +16,7 @@
 
 # Profesor:
 # MC. René Solis Reyes
-# Semestre sep - ene 2020
+# Semestre sep 2020 - ene 2021
 
 ![](https://images.cooltext.com/5474793.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
