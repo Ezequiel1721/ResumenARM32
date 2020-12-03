@@ -1,3 +1,4 @@
+/*
 @@
 @@ Instituto Tecnologico de Tijuana
 @@ Depto de Sistemas y Computación
@@ -9,6 +10,7 @@
 @
 @ Objetivo del programa:
 @    Hola mundo en arm64
+*/
 
 .data
 
