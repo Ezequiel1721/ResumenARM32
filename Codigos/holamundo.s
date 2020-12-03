@@ -1,3 +1,15 @@
+@@
+@@ Instituto Tecnologico de Tijuana
+@@ Depto de Sistemas y Computación
+@@ Ing. En Sistemas Computacionales
+@@   
+@@ Autor : Ezequiel Galván Rodríguez @nickname: Ezequiel1721
+@@ Fecha de revisión: 02/12/2020
+@@ 
+@
+@ Objetivo del programa:
+@    Hola mundo en arm64
+
 .data
 
 /* Segmento de Datos: define el mensaje y calcula el tramaño de la cadena. */
